@@ -803,7 +803,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -870,6 +870,11 @@
 							"variableTypeCheck": true,
 							"assignmentExpression": "\"User already Registered with this mail\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "email",
+							"assignedVariableName": "uiFeedback.email"
 						}
 					],
 					"nodeIcon": "material-symbols:equal",
@@ -885,7 +890,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1832,8 +1837,8 @@
 		}
 	],
 	"viewport": {
-		"x": -129.24368942582123,
-		"y": -86.9138296666074,
-		"zoom": 0.5904963307147653
+		"x": -455.4958801502737,
+		"y": 102.13699396731477,
+		"zoom": 0.7169776240079134
 	}
 }
