@@ -24,6 +24,12 @@
 	  [#if errorMessage?has_content]
 	  <div role="alert" align="center" class="alert alert-danger mt-3 error">
 		<p>${errorMessage} 
+		     [#if email?has_content]
+			  	<strong>${email}</strong>
+        	[/#if]
+		  	[#if userName?has_content]
+            	<strong>(${userName})</strong>
+        	[/#if]
 		</p>
 	  </div>
 	  [/#if]
@@ -53,7 +59,7 @@
 		  </div>
 		  <div class="form-group">
 			<label class="form-label">Password: <span class="required">*</span></label>
-			<input type="password" id="userPassword" name="userPassword" minlength="6" pattern="^(?=.*[!@#$%^&amp;*])(?=.*[A-Za-z0-9]).{6,}$" required="" placeholder="Choose a strong password" class="form-control" title="Password must be at least 6 characters long and contain at least one special character (!@#$%^&amp;*)">
+			<input type="password" id="userPassword" name="userPassword" minlength="6" pattern="^(?=.*[!@#$%^&amp;*])(?=.*[A-Za-z0-9]).{6,}$" required="" placeholder="Choose a strong password" title="Password must be at least 6 characters long and contain at least one special character (!@#$%^&amp;*)" class="form-control">
 		  </div>
 		  <div class="form-group">
 			<label class="form-label">Repeat Password: <span class="required">*</span></label>
