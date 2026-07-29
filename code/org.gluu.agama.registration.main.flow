@@ -51,6 +51,7 @@ Repeat 6 times max
                               Log "@info User already registered with uid: %" userName
                               // User already registered with UID
                               uiFeedback.errorMessage = "User already registered with this UserName"
+                              uiFeedback.userName = userName
                     Otherwise
                          // User already registered with mail
                          Log "@info User already registered with mail: %" email
@@ -71,5 +72,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_vbjpz = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_vbjpz
+it_jqcco = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_jqcco
