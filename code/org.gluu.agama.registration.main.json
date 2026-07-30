@@ -803,7 +803,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -870,6 +870,11 @@
 							"variableTypeCheck": true,
 							"assignmentExpression": "\"User already Registered with this mail\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "email",
+							"assignedVariableName": "uiFeedback.email"
 						}
 					],
 					"nodeIcon": "material-symbols:equal",
@@ -1028,6 +1033,11 @@
 							"variableTypeCheck": true,
 							"assignmentExpression": "\"User already registered with this UserName\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "userName",
+							"assignedVariableName": "uiFeedback.userName"
 						}
 					],
 					"nodeIcon": "material-symbols:equal",
@@ -1043,7 +1053,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1832,8 +1842,8 @@
 		}
 	],
 	"viewport": {
-		"x": -129.24368942582123,
-		"y": -86.9138296666074,
-		"zoom": 0.5904963307147653
+		"x": -335.4929071230687,
+		"y": 51.40083106355854,
+		"zoom": 0.514056913328033
 	}
 }
