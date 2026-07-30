@@ -3,7 +3,7 @@
     "description": "Designing an Agama Flow for seamless user registration with validation and authentication.",
     "type": "community",
     "author": "GluuFederation",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "authorWebsite": "https://github.com/GluuFederation/agama-registration",
     "githubUri": "https://github.com/GluuFederation/agama-registration",
     "license": "apache-2.0",
